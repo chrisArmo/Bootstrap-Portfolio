@@ -1,0 +1,75 @@
+/* Base */
+
+body {
+    background: url("../img/subtle_grunge.png") repeat center;
+    color: #343a40;
+    font: 1.1em "Raleway", sans-serif;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Navbar */
+
+@media screen and (min-width: 576px) {
+    .navbar-brand {
+        margin-left: 2em;
+    }
+
+    .navbar-toggler {
+        margin-right: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        margin-left: 3em;
+    }
+
+    .navbar-toggler {
+        margin-right: 3em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 4em;
+    }
+
+    .navbar-collapse {
+        margin-right: 4em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-brand {
+        margin-left: 5em;
+    }
+
+    .navbar-collapse {
+        margin-right: 5em;
+    }
+}
+
+/* Main section */
+
+.main-section {
+    margin-top: 79px;
+}
+
+/* Title */
+
+.title {
+    margin-left: 1em;
+}
+
+/* Selfie */
+
+.selfie {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Shadowed */
+
+.shadowed {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
